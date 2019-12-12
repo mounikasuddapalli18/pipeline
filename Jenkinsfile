@@ -34,7 +34,7 @@ pipeline {
                         agent {
                                 docker {
                                         reuseNode false
-					image 'python --version'
+					image 'python'
                                         }
 			}
 				steps {
